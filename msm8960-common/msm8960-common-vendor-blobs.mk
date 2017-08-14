@@ -59,6 +59,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/xiaomi/msm8960-common/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf
 
+# Framework
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar \
+    vendor/xiaomi/msm8960-common/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar
+
 # Bt
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/btnvtool:system/bin/btnvtool \
