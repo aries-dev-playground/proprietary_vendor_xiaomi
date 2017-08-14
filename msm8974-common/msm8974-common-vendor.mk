@@ -32,7 +32,5 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     com.qualcomm.location
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/xiaomi/overlay/common
-
 $(call inherit-product, vendor/xiaomi/msm8974-common/msm8974-common-vendor-blobs.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/extras/device-partial.mk)

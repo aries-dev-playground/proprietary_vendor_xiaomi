@@ -22,7 +22,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     libqc-opt
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/xiaomi/overlay/common
-
 $(call inherit-product, vendor/xiaomi/msm8960-common/msm8960-common-vendor-blobs.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/extras/device-partial.mk)
