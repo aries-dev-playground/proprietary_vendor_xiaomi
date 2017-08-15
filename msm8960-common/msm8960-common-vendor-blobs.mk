@@ -102,7 +102,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so
 
 
 # GPS
