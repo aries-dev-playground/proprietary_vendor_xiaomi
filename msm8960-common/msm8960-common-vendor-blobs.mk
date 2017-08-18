@@ -71,11 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/xiaomi/msm8960-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-
-# Light
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
-
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
