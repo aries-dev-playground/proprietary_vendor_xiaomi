@@ -96,9 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
-
+    vendor/xiaomi/msm8960-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
 # GPS
 PRODUCT_COPY_FILES += \
