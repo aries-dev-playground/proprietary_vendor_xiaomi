@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8960-common/proprietary/bin/irsc_util:system/bin/irsc_util
 
 # ETC
