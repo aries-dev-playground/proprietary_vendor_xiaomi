@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    #vendor/xiaomi/msm8960-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/xiaomi/msm8960-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
